@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.box {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+.block {
+    display: block;
+}
+.inline {
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    padding: 10px;
+}
+.inline-block {
+    display: inline-block;
+}
+.none {
+    display: none;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.inline-flex {
+    display: inline-flex;
+}
+.inline-grid {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+}
